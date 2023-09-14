@@ -1,10 +1,11 @@
 /* reset */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -48,15 +49,33 @@ textarea{
 /* page header */
 
 .header{
-height: 160px;
-padding:20px;
-background-color: #673ab7;
+height: 260px;
+padding: 20px;
+background-color: #000;
+background-size: cover;
+background-position: center;
 }
 
 .header h3{
-    color: #fff;
-    margin-top: 0;
+    text-align: center;
+    color: #fdfdfd;
+    font-size: 25px;
+    padding-top: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
+
+
+.header h3:hover{
+ color: #3fa2f2;
+ cursor: pointer;
+}
+
+.header img{
+    width: 200px;
+}
+
+
 
 /* form container */
 
@@ -69,16 +88,18 @@ background-color: #673ab7;
 
 }
 
+
 /* form header */
 .form-header{
      border-bottom: 1px solid #dfdfdf;
      height: 45px;
+     
 }
 
 .form-header p{
-    color: #673ab7;
-    border-bottom: 2px solid #673ab7;
-    width: 100px;
+    color: #14c2dc;
+    border-bottom: 3px solid #14c2dc;
+    width: 120px;
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
@@ -97,6 +118,7 @@ background-color: #673ab7;
 }
 
 .form-title{
+    
     margin-bottom: 15px;
 }
 
@@ -137,7 +159,7 @@ background-color: #673ab7;
 }
 
 .btn-submit{
-    background-color: #673ab7;
+    background-color: black;
     color: #fff;
     border: 2px solid transparent;
     width: 150px;
@@ -149,10 +171,10 @@ background-color: #673ab7;
 
 }
 
-.btn_submit:hover{
+.btn-submit:hover{
     background-color:#fff ;
     border-color: #673ab7;
-    color: #673ab7;
+    color: #1185b2;
 }
 
 
